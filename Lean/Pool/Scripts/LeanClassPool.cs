@@ -15,7 +15,6 @@ namespace Lean.Pool
 		public static T Spawn()
 		{
 			var count = cache.Count;
-
 			if (count > 0)
 			{
 				var index    = count - 1;
